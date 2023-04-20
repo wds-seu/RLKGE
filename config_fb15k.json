@@ -1,0 +1,20 @@
+{
+    "transE":{
+        "dim":100,
+        "margin":3,
+        "p":1,
+        "n_epoch":100,
+        "epoch_per_test":50
+    },
+    "rl_transE":{
+        "alpha":0.05,
+        "lambda1":0.001,
+        "lambda2":0.01,
+        "cluster":300,
+        "batch_num_rl":1,
+        "batch_kge":256,
+        "episode": 15,
+        "pretrain_episode": 2,
+        "dim": 500
+    }
+}
